@@ -10,23 +10,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('./images/bg.jpeg') #FFF center left no-repeat;
-    background-size: 70%;
+    background-color: #130f40;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    width: 100vw;
-    height: 100vh;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     padding: 50px;
+    border-radius: 5px;
+    background-color: white;
 }
 
 input {
-    padding: 16px 12px;
+    padding: 16px;
     width: 320px;
     margin-bottom: 20px;
     font-size: 20px;
@@ -42,6 +40,7 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #444;
     width: 320px;
+    margin-bottom: 20px;
 }
 
 .qrcode {
@@ -53,4 +52,19 @@ h2 {
     border-radius: 5px;
     padding: 0 10px;
     height: 280px;
+}
+
+.btn-copy {
+    padding: 20px;
+    outline: none;
+    background: #FFCC33;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 320px;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
 }

@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Generator</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
     <main>
         <h2>QR Code Generator</h2>
 
         <div class="content">
-            <input type="text" placeholder="Type url here">
+            <input type="text" placeholder="Type url here and press ENTER">
             <div class="qrcode">
-                <img src="" alt="" id="qrcode">
+                <img src="#" alt="" id="qrcode">
             </div>
+            
+            <button class="btn-copy" onclick="copyContent()">Share QR Code</button>
         </div>
     </main>
 
-    <script src="script.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 </html>
